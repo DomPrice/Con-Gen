@@ -1,0 +1,14 @@
+Con Gen
+=========
+version 0.0.1
+
+Con-Gen (Conlang Generator) is a Conlang (Constructed Language) word generator created as a way to quickly generate words in
+syllabic pattern of a specified Conlang. It primarily created as a way to learn Python and create a utility for personal use
+in the development of the Actarian Conlang.
+
+At the moment it only generates words for the Actarian language, but I intend to add
+language support for other conlangs as well as a web interface and export options for easy on the fly generation.
+
+The app.py and console.py are currently very bare bones and are mainly used for testing.
+
+A goal is to build a REST API that a third party application on the server can use to interact with the app.
