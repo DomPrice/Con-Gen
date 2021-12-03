@@ -15,10 +15,10 @@ import random
 class ConGen:
 
     # PRESETS
-    vowel_table     = []
-    consonant_table = []
-    initial_table   = []
-    coda_table      = []
+    vowel_table     = [] # Stores weighted vowel table
+    consonant_table = [] # Stores weighted coda table
+    initial_table   = [] # Stores weighted initial table
+    coda_table      = [] # Stores weighted coda table
     char_lib        = "" # This will store the character library at runtime
 
     # INIT
