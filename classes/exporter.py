@@ -22,3 +22,6 @@ class Exporter:
     def export_json(self,words):
         """Returns the word list data in JSON format"""
         return json.dumps(words)
+
+    # END export_json
+    # -----------------------------------------------------------------------------
