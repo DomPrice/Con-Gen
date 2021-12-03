@@ -24,7 +24,7 @@ class ConGen:
     # INIT
     # -----------------------------------------------------------------------------
     def __init__(self,opts):
-        """Constructor for WordGen"""
+        """Constructor for ConGen"""
 
         # Check opts valid
         if(opts != None and opts.has_key("lang") and opts["lang"] != None):
