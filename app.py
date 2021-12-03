@@ -11,5 +11,3 @@ words = word_gen.generate_words({"num_words": 10, "word_len": 0, "gender": "fem"
 
 for w in words:
     print str(w)
-
-            #print(v.decode('utf-8'))

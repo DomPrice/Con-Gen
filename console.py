@@ -23,5 +23,3 @@ words = word_gen.generate_words({"num_words": num_words, "word_len": word_len, "
 
 for w in words:
     print str(w)
-
-#print(v.decode('utf-8'))

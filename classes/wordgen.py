@@ -72,7 +72,7 @@ class WordGen:
                     this_cc.append(cc) # Push character cluster into the temp list 'wt' times
                     out_table += this_cc # Merge into weighted table
 
-            # Return weighted and shuffled vowel table
+            # Return weighted and shuffled character table
             random.shuffle(out_table)
 
         return out_table
