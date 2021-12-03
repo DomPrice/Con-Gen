@@ -7,12 +7,12 @@ import random
 #import sys
 #sys.stdout.reconfigure(encoding='utf-8')
 
-# CONLANG WORD GEN
+# CONLANG WORD GENERATOR
 # ---------------------------------------------------------------------------------
 # Uses the imported Conlang character tables to return a list of randomly generated
 # words that would fit into the syllabic standards of that Conlang
 
-class WordGen:
+class ConGen:
 
     # PRESETS
     vowel_table     = []

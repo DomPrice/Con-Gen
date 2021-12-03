@@ -4,7 +4,7 @@
 # spelling standards and phonotactics
 
 # Import
-from classes.wordgen import WordGen
+from classes.wordgen import ConGen
 
 print("WordGen Conlang Word Generator")
 print("Pick language (Two Letter Code): ")
@@ -18,8 +18,8 @@ gender = raw_input()
 
 print(lang + " " + str(num_words) + " " + str(word_len) + " " +gender )
 
-word_gen = WordGen({"lang":lang})
-words = word_gen.generate_words({"num_words": num_words, "word_len": word_len, "gender": gender})
+word_gen = ConGen({"lang":lang})
+words = congen.generate_words({"num_words": num_words, "word_len": word_len, "gender": gender})
 
 for w in words:
     print str(w)

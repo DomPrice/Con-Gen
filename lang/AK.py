@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# ACTARIAN LANAGUAGE LIBRARY FOR WORDGEN
+# ACTARIAN LANGUAGE LIBRARY FOR WORDGEN
 # ---------------------------------------------------------------------------------
 # Contains the character cluster and pattern information for the Actarian Language
 

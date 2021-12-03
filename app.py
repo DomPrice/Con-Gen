@@ -4,10 +4,10 @@
 # spelling standards and phonotactics
 
 # Import
-from classes.wordgen import WordGen
+from classes.wordgen import ConGen
 
-word_gen = WordGen({"lang":"ak"})
-words = word_gen.generate_words({"num_words": 10, "word_len": 0, "gender": "fem"})
+congen = ConGen({"lang":"ak"})
+words = congen.generate_words({"num_words": 10, "word_len": 0, "gender": "fem"})
 
 for w in words:
     print str(w)
